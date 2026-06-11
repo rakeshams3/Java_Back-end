@@ -28,3 +28,10 @@ Relational database Management systems/ softwares is used to manage Relational D
 
 NO SQL
 Non Relational Databases Management softwares are used to manage Non Relational Databases.
+
+
+SQL
+
+Structured Query Language
+
+SQL is a structured query language which is used to communicate with the Relational Database Management Softwares to manage Relational Databases.
