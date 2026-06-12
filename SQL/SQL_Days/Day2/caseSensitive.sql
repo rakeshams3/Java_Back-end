@@ -1,4 +1,4 @@
-MySQL Case Sensitivity
+NOTE:  MySQL Case Sensitivity
 
 1. SQL Keywords are NOT case-sensitive
 
@@ -26,3 +26,5 @@ Example:
 
 SELECT * FROM Student;   -- may work
 SELECT * FROM student;   -- may give error
+
+
