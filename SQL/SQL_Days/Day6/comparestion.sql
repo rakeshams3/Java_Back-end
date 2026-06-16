@@ -32,3 +32,9 @@ Returns rows where the condition is not true.
 SELECT *
 FROM student
 WHERE NOT salary > 50000;
+
+
+between AND 
+
+where age between lower value AND upper values ;
+
