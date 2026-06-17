@@ -36,3 +36,13 @@ WHERE city IN ('Mysore', 'Bangalore');
 WHERE email IS NULL;
 
 WHERE email IS NOT NULL;
+
+
+7. LIKE
+WHERE name LIKE 'A%';   -- Starts with A
+WHERE name LIKE '%a';   -- Ends with a
+WHERE name LIKE '%a%';  -- Contains a
+
+
+8. NOT LIKE
+WHERE name NOT LIKE 'A%';
