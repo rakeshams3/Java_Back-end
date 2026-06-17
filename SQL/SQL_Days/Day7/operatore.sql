@@ -62,3 +62,14 @@ LIMIT 5;
 SELECT *
 FROM student
 LIMIT 2 OFFSET 3;
+
+
+12. AND
+WHERE city = 'Mysore'
+  AND marks > 80;
+13. OR
+WHERE city = 'Mysore'
+   OR city = 'Bangalore';
+14. AND + OR (Use Parentheses)
+WHERE (city = 'Mysore' OR city = 'Bangalore')
+  AND marks > 80;
