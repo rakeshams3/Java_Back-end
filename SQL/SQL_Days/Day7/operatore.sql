@@ -46,3 +46,19 @@ WHERE name LIKE '%a%';  -- Contains a
 
 8. NOT LIKE
 WHERE name NOT LIKE 'A%';
+
+
+9. DISTINCT
+SELECT DISTINCT city
+FROM student;
+
+
+10. LIMIT
+SELECT *
+FROM student
+LIMIT 5;
+
+11. OFFSET
+SELECT *
+FROM student
+LIMIT 2 OFFSET 3;
