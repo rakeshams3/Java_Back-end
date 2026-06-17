@@ -26,3 +26,13 @@ WHERE age >= 21;
 WHERE marks BETWEEN 80 AND 90;
 
 ✅ Includes both 80 and 90.
+
+
+5. IN
+WHERE city IN ('Mysore', 'Bangalore');
+
+
+6. IS NULL / IS NOT NULL
+WHERE email IS NULL;
+
+WHERE email IS NOT NULL;
