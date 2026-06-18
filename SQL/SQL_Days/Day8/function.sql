@@ -52,3 +52,39 @@ Output:
 
 rakesh
 alice
+
+
+3. CONCAT()
+Joins two or more strings into one.
+
+Syntax:
+
+CONCAT(value1, value2, ...)
+
+Example:
+
+SELECT CONCAT(name, ' - ', city)
+FROM student;
+
+Output:
+
+Rakesh - Mysore
+Alice - Bangalore
+
+
+4. REVERSE()
+Reverses the characters in a string.
+
+Syntax:
+
+REVERSE(column_name)
+
+Example:
+
+SELECT REVERSE(name)
+FROM student;
+
+Output:
+
+hsekaR
+ecilA
