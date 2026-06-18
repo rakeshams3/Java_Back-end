@@ -126,4 +126,39 @@ Rakesh → 2
 Akshay → 4
 
 
+7. LENGTH()
+Returns the number of characters in a string.
 
+Syntax:
+
+LENGTH(column_name)
+
+Example:
+
+SELECT LENGTH(name)
+FROM student;
+
+Output:
+
+Rakesh → 6
+Alice   → 5
+
+⭐ Nested Functions
+
+You can use one function inside another.
+
+Example 1:
+
+SELECT SUBSTR(UPPER(name), 1, 2)
+FROM student;
+
+Output:
+
+RA
+AL
+RO
+
+Example 2:
+
+SELECT LENGTH(LOWER(name))
+FROM student;
