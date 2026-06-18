@@ -88,3 +88,42 @@ Output:
 
 hsekaR
 ecilA
+
+
+5. SUBSTR()
+Extracts part of a string.
+
+Syntax:
+
+SUBSTR(column_name, start_position, length)
+
+Example:
+
+SELECT SUBSTR(name, 1, 3)
+FROM student;
+
+Output:
+
+Rak
+Ali
+
+
+6. INSTR()
+Returns the position of the first occurrence of a substring.
+
+Syntax:
+
+INSTR(column_name, 'text')
+
+Example:
+
+SELECT INSTR(name, 'a')
+FROM student;
+
+Example Output:
+
+Rakesh → 2
+Akshay → 4
+
+
+
