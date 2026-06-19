@@ -10,3 +10,16 @@ Example:
 
 SELECT LEFT('Rakesha', 4);
 Output: Rake
+
+
+2. RIGHT(str, n)
+Purpose: Returns the last n characters from the right.
+
+Syntax:
+
+RIGHT(string, number)
+
+Example:
+
+SELECT RIGHT('Rakesha', 3);
+Output: sha
