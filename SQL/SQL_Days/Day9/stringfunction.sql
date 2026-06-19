@@ -66,3 +66,20 @@ Example:
 
 SELECT RPAD('123', 5, '0');
 Output: 12300
+
+
+
+6. ASCII(str)
+Purpose: Returns the ASCII value of the first character.
+
+Syntax:
+
+ASCII(string)
+
+Examples:
+
+SELECT ASCII('A');   -- 65
+SELECT ASCII('a');   -- 97
+SELECT ASCII('1');   -- 49
+
+first charcter ascii only print.
