@@ -37,6 +37,23 @@ Example:
 SELECT LPAD('123', 5, '0');
 Output: 00123
 
+
+
+
+TRIM(str)
+Purpose: Removes spaces from the beginning and end of a string.
+
+Syntax:
+
+TRIM(string)
+
+Example:
+
+SELECT TRIM('   Hello SQL   ');
+Output: Hello SQL
+
+Note: TRIM() does not remove spaces in the middle.
+
   
 5. RPAD(str, len, pad_str)
 Purpose: Pads the right side of a string until it reaches the specified length.
