@@ -116,3 +116,77 @@ SELECT POWER(2, 5);
 Output:
 
 32
+
+
+7. CEIL(number) or CEILING(number)
+
+Purpose: Rounds a number up to the nearest integer.
+
+Syntax:
+
+CEIL(number)
+
+Examples:
+
+SELECT CEIL(4.1);    -- 5
+SELECT CEIL(7.99);   -- 8
+SELECT CEIL(-5.9);   -- -5
+8. FLOOR(number)
+
+Purpose: Rounds a number down to the nearest integer.
+
+Syntax:
+
+FLOOR(number)
+
+Examples:
+
+SELECT FLOOR(4.9);   -- 4
+SELECT FLOOR(7.01);  -- 7
+SELECT FLOOR(-5.1);  -- -6
+
+
+ROUND vs TRUNCATE
+Function	Example	Result
+ROUND	ROUND(12.567, 2)	12.57
+TRUNCATE	TRUNCATE(12.567, 2)	12.56
+
+Key Point:
+
+ROUND() changes the value based on standard rounding rules.
+TRUNCATE() simply cuts off extra digits.
+
+
+
+
+CEIL vs FLOOR
+Function	Input	Output
+CEIL	5.1	6
+FLOOR	5.9	5
+CEIL	-5.9	-5
+FLOOR	-5.1	-6
+Interview Quick Revision
+SELECT MOD(17, 5);            -- 2
+SELECT ABS(-100);             -- 100
+SELECT ROUND(98.7654, 2);     -- 98.77
+SELECT TRUNCATE(98.7654, 2);  -- 98.76
+SELECT SQRT(49);              -- 7
+SELECT POWER(3, 4);           -- 81
+SELECT CEIL(7.01);            -- 8
+SELECT FLOOR(7.99);           -- 7
+
+
+
+Memory Trick
+MOD → Remainder
+ABS → Positive value
+ROUND → Rounds
+TRUNCATE → Cuts off
+SQRT → Square root
+POWER → Exponent
+CEIL → Always goes up
+FLOOR → Always goes down	
+
+
+
+
