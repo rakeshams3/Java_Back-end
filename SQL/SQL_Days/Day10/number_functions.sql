@@ -81,3 +81,38 @@ Difference from ROUND():
 
 ROUND(12.5678, 2);      -- 12.57
 TRUNCATE(12.5678, 2);   -- 12.56
+
+
+
+5. SQRT(number)
+
+Purpose: Returns the square root of a number.
+
+Syntax:
+
+SQRT(number)
+
+Example:
+
+SELECT SQRT(64);
+
+Output:
+
+8
+
+
+6. POWER(base, exponent)
+
+Purpose: Raises a number to a given power.
+
+Syntax:
+
+POWER(base, exponent)
+
+Example:
+
+SELECT POWER(2, 5);
+
+Output:
+
+32
