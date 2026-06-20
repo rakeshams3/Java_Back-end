@@ -83,3 +83,30 @@ SELECT ASCII('a');   -- 97
 SELECT ASCII('1');   -- 49
 
 first charcter ascii only print.
+
+
+
+
+
+7. REPLACE() Function in SQL
+REPLACE() is used to replace all occurrences of a substring within a string with another substring.
+
+✅ Syntax
+REPLACE(string, old_substring, new_substring)
+string → Original text
+old_substring → Text to find
+new_substring → Text to replace it with
+✅ Examples
+1. Replace a word
+SELECT REPLACE('I love Java', 'Java', 'SQL');
+
+Output:
+
+I love SQL
+
+. Replace a character
+SELECT REPLACE('banana', 'a', 'o');
+
+Output:
+
+bonono
