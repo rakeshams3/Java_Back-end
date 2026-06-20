@@ -21,3 +21,18 @@ SELECT MOD(8, 2);   -- 0 (Even)
 SELECT MOD(9, 2);   -- 1 (Odd)
 
 
+2. ABS(number)
+
+Purpose: Returns the absolute (positive) value of a number.
+
+Syntax:
+
+ABS(number)
+
+Example:
+
+SELECT ABS(-25);
+
+Output:
+
+25
