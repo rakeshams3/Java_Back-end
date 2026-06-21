@@ -46,3 +46,23 @@ Purpose: Returns the current system date and time at the moment the function exe
 Syntax:
 
 SELECT SYSDATE();
+
+
+
+DATE_ADD()
+
+Purpose: Adds a specified interval to a date.
+
+SELECT DATE_ADD('2026-06-21', INTERVAL 10 DAY);
+
+Output:
+
+2026-07-01
+
+Other examples:
+
+SELECT DATE_ADD('2026-06-21', INTERVAL 2 MONTH);
+SELECT DATE_ADD('2026-06-21', INTERVAL 1 YEAR);
+
+
+
