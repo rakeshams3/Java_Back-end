@@ -65,4 +65,17 @@ SELECT DATE_ADD('2026-06-21', INTERVAL 2 MONTH);
 SELECT DATE_ADD('2026-06-21', INTERVAL 1 YEAR);
 
 
+. TIMESTAMPDIFF()
 
+Purpose: Returns the difference between two dates/times in a specified unit.
+
+SELECT TIMESTAMPDIFF(YEAR, '2000-05-15', CURDATE());
+
+Other units:
+
+YEAR
+MONTH
+DAY
+HOUR
+MINUTE
+SECOND
