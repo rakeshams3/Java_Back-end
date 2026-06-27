@@ -18,3 +18,24 @@ MONTH()
 DAY()
 MONTHNAME()
 DAYNAME()
+
+
+5. Date Difference
+DATEDIFF()
+TIMESTAMPDIFF()
+
+Units for TIMESTAMPDIFF():
+
+YEAR
+MONTH
+DAY
+HOUR
+MINUTE
+SECOND
+
+
+6. Add/Subtract Date
+DATE_ADD()
+DATE_SUB()
+
+
