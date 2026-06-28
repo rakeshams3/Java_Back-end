@@ -17,4 +17,39 @@ SELECT COUNT(email)
 FROM employee;
 
 
+2. SUM()
+Purpose
 
+Calculates the total of numeric values.
+
+Syntax
+SELECT SUM(column_name)
+FROM table_name;
+
+Example
+
+SELECT SUM(salary)
+FROM employee;
+
+Output
+
+750000
+
+
+3. AVG()
+Purpose
+
+Calculates the average value.
+
+Syntax
+SELECT AVG(column_name)
+FROM table_name;
+
+Example
+
+SELECT AVG(salary)
+FROM employee;
+
+Output
+
+75000
