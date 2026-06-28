@@ -20,3 +20,21 @@ SELECT name,
 FROM employee;
 
 
+
+2. IFNULL()
+Purpose
+
+Replaces NULL with another value.
+
+Syntax
+IFNULL(expression,replacement)
+
+Example
+
+SELECT name,
+       IFNULL(commission,0)
+FROM employee;
+
+
+
+
