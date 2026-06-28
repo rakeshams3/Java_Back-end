@@ -37,4 +37,29 @@ FROM employee;
 
 
 
+3. NULLIF()
+Purpose
+
+Returns NULL if two expressions are equal; otherwise returns the first expression.
+
+Syntax
+NULLIF(expr1,expr2)
+
+Example
+
+SELECT NULLIF(10,10);
+
+Output
+
+NULL
+
+Example
+
+SELECT NULLIF(10,5);
+
+Output
+
+10
+
+
 
