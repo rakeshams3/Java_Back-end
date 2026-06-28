@@ -53,3 +53,33 @@ FROM employee;
 Output
 
 75000
+
+
+
+
+4. MIN()
+Purpose
+
+Returns the smallest value.
+
+Example
+
+SELECT MIN(salary)
+FROM employee;
+
+Output
+
+25000
+5. MAX()
+Purpose
+
+Returns the largest value.
+
+Example
+
+SELECT MAX(salary)
+FROM employee;
+
+Output
+
+120000
