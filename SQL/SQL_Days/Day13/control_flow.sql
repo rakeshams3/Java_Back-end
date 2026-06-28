@@ -62,4 +62,42 @@ Output
 10
 
 
+4. CASE
+Purpose
 
+Works like multiple IF-ELSE conditions.
+
+Syntax
+CASE
+    WHEN condition THEN result
+    WHEN condition THEN result
+    ELSE result
+END
+
+Example
+
+SELECT name,
+CASE
+    WHEN salary>=100000 THEN 'Excellent'
+    WHEN salary>=60000 THEN 'Good'
+    WHEN salary>=30000 THEN 'Average'
+    ELSE 'Low'
+END AS Grade
+FROM employee;
+
+
+📘 MySQL COALESCE() Function
+Definition
+
+COALESCE() returns the first non-NULL value from a list of expressions.
+
+If all values are NULL, it returns NULL.
+
+Syntax
+COALESCE(value1, value2, value3, ..., valueN)
+Checks values from left to right.
+Returns the first value that is NOT NULL.
+Example 1: Basic Example
+SELECT COALESCE(NULL, NULL, 100, 200);
+Output
+100
